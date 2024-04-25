@@ -1,5 +1,5 @@
 # Site
-repository: sproogen/resume-theme
+repository: bobasb/cv_example
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -45,12 +45,14 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+about_title: About Me
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name's Bohdan and I'm a DevOps Engineer. 
+  
+  I am most skilled in: <mark>AWS</mark> and <mark>Python</mark>.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  and here is my CV example for IT-college Lviv!
 
 content:
   - title: Projects # Title for the section
@@ -109,7 +111,7 @@ content:
       - Knitting
 
       It-College   
-      ![](./images/bezfonu.png "Trees")
+      ![](./images/bezfonu.png "It-College Logo")
 
 # Footer
 footer_show_references: true
